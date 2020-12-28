@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RigsterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registert"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/title"
+        />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:layout_below="@+id/name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="20dp"
+        android:layout_below="@id/email"
+        android:id="@+id/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Register"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pasword"/>
+</RelativeLayout>
