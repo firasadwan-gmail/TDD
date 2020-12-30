@@ -1,7 +1,7 @@
 package com.example.myapplication;
 
-public interface LoginPersenter {
-    //to cahnge data
+public interface RigsterPersenter {
     void isClear_name(int length);
     void isClear_password(int length);
+
 }
